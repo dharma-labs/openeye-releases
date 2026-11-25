@@ -6,7 +6,7 @@ free. no account, no ads, no tracking, no internet permission — nothing leaves
 
 ## download
 
-[openeye-4.1.0.apk](https://github.com/kumarsbm005-create/openeye-releases/releases/latest/download/openeye-4.1.0.apk)
+[openeye-4.1.0.apk](https://github.com/dharma-labs/openeye-releases/releases/latest/download/openeye-4.1.0.apk)
 
 1. tap the link, download the file
 2. open it. android will say "for your security" — tap **settings** → **allow from this source**, then go back and install
