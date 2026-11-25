@@ -6,13 +6,15 @@ free. no account, no ads, no tracking, no internet permission — nothing leaves
 
 ## download
 
-[openeye-4.2.0.apk](https://github.com/dharma-labs/openeye-releases/releases/latest/download/openeye-4.2.0.apk)
+[openeye-5.0.0.apk](https://github.com/dharma-labs/openeye-releases/releases/latest/download/openeye-5.0.0.apk)
 
 1. tap the link, download the file
 2. open it. android will say "for your security" — tap **settings** → **allow from this source**, then go back and install
 3. open the app and walk through the three screens
 
-requires android 8.0 or newer. about 1.5 mb.
+requires android 8.0 or newer. about 1.6 mb.
+
+5.0.0 installs over 4.x without uninstalling.
 
 ## what it does
 
@@ -37,7 +39,11 @@ there is no `INTERNET` permission in the apk, so it cannot send anything anywher
 
 ## build
 
-version `4.2.0` · build by dharmendra · signed with a release key, so future updates install over this one without uninstalling.
+version `5.0.0` · build by dharmendra · signed with a release key, so future updates install over this one without uninstalling.
+
+5.0.0 is a full UI redesign: four tabs (today / shields / focus / numbers), one accent colour that always
+means "your number", a ring that fills as the day's budget is used, and the same measured data as before.
+Nothing about how counting or blocking works changed.
 
 ## uninstall
 
