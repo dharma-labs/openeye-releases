@@ -6,7 +6,7 @@ free. no account, no ads, no tracking, no internet permission — nothing leaves
 
 ## download
 
-[openeye-5.0.0.apk](https://github.com/dharma-labs/openeye-releases/releases/latest/download/openeye-5.0.0.apk)
+[openeye-5.1.0.apk](https://github.com/dharma-labs/openeye-releases/releases/latest/download/openeye-5.1.0.apk)
 
 1. tap the link, download the file
 2. open it. android will say "for your security" — tap **settings** → **allow from this source**, then go back and install
@@ -14,7 +14,9 @@ free. no account, no ads, no tracking, no internet permission — nothing leaves
 
 requires android 8.0 or newer. about 1.6 mb.
 
-5.0.0 installs over 4.x without uninstalling.
+**if you already have an older openeye, uninstall it first.** 5.1.0 changed the app id, so android
+sees it as a different app: installing it next to 4.x or 5.0.0 gives you two icons, not an update.
+your watch history stays with the old one and goes when you remove it.
 
 ## what it does
 
@@ -33,17 +35,23 @@ it asks for two, and that is all:
 - **usage access** — so it can read the screen-time numbers android already keeps
 - **accessibility** — so it can see which app is in front of you and show the reminder on top of it.
   it reads the package name on screen, and the on-screen labels it needs to find the reels/shorts
-  button. nothing is recorded, uploaded, or kept after you leave the app
+  button. nothing you type is read, recorded, or kept
 
 there is no `INTERNET` permission in the apk, so it cannot send anything anywhere even if it wanted to. check it yourself with any apk viewer.
 
+## source
+
+[github.com/dharma-labs/openeye](https://github.com/dharma-labs/openeye) — GPL-3.0, buildable with
+the gradle wrapper in the repo. the licence file, the fastlane store listing and the fdroid build
+recipe are all in there, so nothing about this app has to be taken on trust.
+
 ## build
 
-version `5.0.0` · build by dharmendra · signed with a release key, so future updates install over this one without uninstalling.
+version `5.1.0` · build by dharmendra · signed with a release key, so future updates install over this one without uninstalling.
 
-5.0.0 is a full UI redesign: four tabs (today / shields / focus / numbers), one accent colour that always
-means "your number", a ring that fills as the day's budget is used, and the same measured data as before.
-Nothing about how counting or blocking works changed.
+5.1.0 is the release cut: the app id moved to `io.github.dharma_labs.openeye`, the source went public
+under GPL-3.0, and onboarding and the feed interrupt were re-laid out so they fit one screen each.
+the way out of an interruption — "nah, go back" — is now always on the screen, never below the fold.
 
 ## uninstall
 
@@ -53,4 +61,4 @@ settings → apps → openeye → uninstall. removing it takes the widget with i
 
 if the reminder never appears, the accessibility service was most likely killed by your phone's battery optimisation — turn off battery restriction for openeye and it comes back. on xiaomi, oppo and some samsung one ui builds, you also have to allow "display over other apps" for accessibility services in the developer options.
 
-the source is not public yet. if something about this app worries you, the apk is small enough to inspect and the permissions list is the whole promise.
+if the install fails with "app not installed", an older openeye is still on the phone. uninstall it and install again — the app id changed in 5.1.0.
