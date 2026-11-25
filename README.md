@@ -14,6 +14,8 @@ free. no account, no ads, no tracking, no internet permission — nothing leaves
 
 requires android 8.0 or newer. about 1.6 mb.
 
+sha256 of the apk: `71fa9e6d71072d9199fe32a0f57a5fe48dee13217fa250d4aada425dee519b0a`
+
 **if you already have an older openeye, uninstall it first.** 5.1.0 changed the app id, so android
 sees it as a different app: installing it next to 4.x or 5.0.0 gives you two icons, not an update.
 your watch history stays with the old one and goes when you remove it.
