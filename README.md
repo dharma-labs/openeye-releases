@@ -6,7 +6,7 @@ free. no account, no ads, no tracking, no internet permission — nothing leaves
 
 ## download
 
-[openeye-4.1.0.apk](https://github.com/dharma-labs/openeye-releases/releases/latest/download/openeye-4.1.0.apk)
+[openeye-4.2.0.apk](https://github.com/dharma-labs/openeye-releases/releases/latest/download/openeye-4.2.0.apk)
 
 1. tap the link, download the file
 2. open it. android will say "for your security" — tap **settings** → **allow from this source**, then go back and install
@@ -19,6 +19,8 @@ requires android 8.0 or newer. about 1.5 mb.
 - counts reel / shorts / tiktok time on the screen you are actually looking at — a small, quiet readout, not a dashboard
 - reminds you of the number you already agreed to, while you are watching, not after
 - can hide the reels / shorts button in instagram, and covers the apps you tell it to
+- a tiny `today 42m` in the corner of the screen, always there, so you never have to open an app to
+  know how long the phone has been on. it disappears inside feeds, because the feed readout is already there
 - a home-screen widget with today's screen time and clip count
 - shields, focus, and a numbers screen that only shows what was measured
 
@@ -35,7 +37,7 @@ there is no `INTERNET` permission in the apk, so it cannot send anything anywher
 
 ## build
 
-version `4.1.0` · build by dharmendra · signed with a release key, so future updates install over this one without uninstalling.
+version `4.2.0` · build by dharmendra · signed with a release key, so future updates install over this one without uninstalling.
 
 ## uninstall
 
