@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><fdroid><repo icon="icon.png" name="Openeye" pubkey="308204f7308202dfa003020102020824dbfe1ab5e67b21300d06092a864886f70d01010b050030293110300e060355040b1307462d44726f6964311530130603550403130c6f70656e6579652d7265706f3020170d3236313132363131353735375a180f32303534303431333131353735375a30293110300e060355040b1307462d44726f6964311530130603550403130c6f70656e6579652d7265706f30820222300d06092a864886f70d01010105000382020f003082020a0282020100a8b439a5ded20b19e9d69c99b8e83ae1e99375b9db5f87033706c9d986a2571ba3109ede3f847632816a83a4779e6ffd4d7b93fc8bdd136ba95b4a0f95289cdd942d929b35f5e0ba7d68a3cff478a599e63d77dacc4d1e49f7e247cc7c93c9b5d539aa959e8c257219f4e524688c1769639ff8c6a84fc318d8937310e8f6f39f6be033bce9fc28f7c530dd9a20574e76bf808586b016873ef313fe8f170deb00de908b8cdedbe5103fb277e746651599c1097676317273d9a4242e8baddbd53c3ab123f512c7da98409a85ea91b8484fe83bb2b2b9cad365c667eb12de8e1229df19bd5fa215ee0d22162dd89453f535c31a59e2bbbedba0535cae048728d6983db0eda9bad0b438b5cc7dedef0549067715d67b92bc57fcb374e696239d719f05f40259b870d9efe8576947587fbac3b34f37a57d48dac3ad959b6892587cbd162f898cb1bd3ec29f2f204b9cfc818f26ed5ab644160fdf3f9a8f745941eace2f625527576342d9f15c3c36e5996bd7712e59ba37ff5e6a600e24e3cc66b3df78de70c0f11d0acf317f909c6a0477e7b7491e8236829971470feb21a9f8a41d929de1723af11217f3c195e0d422c29673c677da551c7b82d5aa937c36800d4f4c977673c7fe4fbcd65aafcb5240f5f38a97ce9b7035ef47cf85e78393378994296f885fe764a1e67bceeb2c8a5f4ebd39452835c748e96d8d3611953e1afd9d0203010001a321301f301d0603551d0e04160414e4088723cf3931d27e81dc19fd422ac73a801844300d06092a864886f70d01010b050003820201008de18cc3bad4884d169a42146473f0b7ba4b5b9a6f2d9612ab55a0069df353d09c853e59257cc75265d9af279fc81d2736995f318a4309d385aee3bc83565a8870ceeaf47ee610e75b5412627a1653fb9fcf13708bec27f6871763e2820665011f16baa5db4de2e8c298cf1090b37068e25100bd53d4cee5b8a5b7e3d7b91a31da62b8e935860c14c9bf7909657a82bca71e58c8cf58995e7040e431b216e4cf7f01a98e89815fbd1b81455c20769817206646ca9da05f0cc137844056024edcef77ec50db2d868c3856cdb5f1795b462846ccc6688cbe12071874b5b25d0f15fbe38a68ebf3c1ae5d5be0b1a1677097ffed49bd0b928b0c6b1859b176d33000e1182374624c62d8ac1972d35e91e51bcbde391c7de3b952b0dc57bb8784eef2a0578edd8fe574029d22d7a69ec54f0974a4149f9f867056b3f077e4612bd7ce6f2ac4dd81a21f9859d1dacf5bdba53c5b0f4c3fdc7e05d41b23f736164081737001f415d2dfd94d3c265f29de3ddaad9f0d983dba36d3d17f8332b9450a086a08e83eb6061fd353a594435acddb30310b674fde30133c8612a6e9b392e3541e647ccc5936e8518542eb7509684633903c04a543bdd9e31da5bd390c6c1f2cde85701a1378e855bbe8caf78c2eabc0d8115fe89026d7a855e35703b65cf78861e1c3b79bb7488d19ef99565fa650dd789c13092d62c54c0244c6c07545fc3894" timestamp="1795695689" url="https://dharma-labs.github.io/openeye-releases/repo" version="20002"><description>APKs signed with the author's own release key, the same bytes as the GitHub releases.</description></repo><application id="io.github.dharma_labs.openeye"><id>io.github.dharma_labs.openeye</id><added>2026-11-26</added><lastupdated>2026-11-26</lastupdated><name>Openeye</name><summary>Counts what you actually watch. No account, no internet permission.</summary><desc>Openeye counts what you actually watch, and then gets out of the way.
+
+It measures the feed you are looking at - reels, shorts, tiktok - and shows the number while you are watching it, not in a dashboard you have to open afterwards. It reminds you of the limit you agreed to yourself at the moment you are about to break it, and then asks what you were hoping for.
+
+WHAT IT DOES
+
+- counts short-video time, clips and swipes on the screen you are actually on
+- a small &quot;today 42m&quot; in the corner of the screen, so you never have to open an app to know how long the phone has been on. it disappears inside feeds, because the feed readout is already there
+- covers the reels / shorts / explore button in the apps you tell it to. never the whole app
+- quotes your own number and your own if-then plan back to you at the interrupt, because a rule you set while calm beats a rule someone set for you
+- focus sessions, quiet hours, and a numbers screen that only shows what was measured
+- a home-screen widget with today's screen time and your goal bar
+
+No streaks and no badges. A broken streak is the main reason people quit an app like this one.
+
+PRIVACY
+
+Openeye has no INTERNET permission in the APK, so it cannot send anything anywhere even if it wanted to. No account, no ads, no analytics, no tracking, no server. Everything stays on your device and goes away when you uninstall.
+
+It asks for two things, and that is all it needs from you:
+
+- Usage access, so it can read the screen-time numbers Android already keeps on your phone
+- Accessibility, so it can see which app is in front of you and show the reminder on top of it. It reads the package name on screen, and the on-screen labels it needs to find the reels/shorts button. Nothing you type is read, recorded, or kept
+
+The APK declares no other permission beyond the foreground service and notification entries Android requires to run the focus timer. No INTERNET permission, so no network access at all.
+
+SOURCE
+
+https://github.com/dharma-labs/openeye
+
+Built by Dharmendra. Signed with a release key, so updates install over an existing install without uninstalling.
+
+THIS DOWNLOAD CHANNEL
+
+This repo is run by the app's author, not by the F-Droid project, so every APK here is signed with the same key as the download on github.com/dharma-labs/openeye-releases. If Openeye is already installed from that page, updating through this repo replaces it in place - no uninstall, no lost settings.
+</desc><license>Unknown</license><categories>Digital Wellbeing</categories><category>Digital Wellbeing</category><web>https://github.com/dharma-labs/openeye</web><source>https://github.com/dharma-labs/openeye</source><tracker>https://github.com/dharma-labs/openeye/issues</tracker><author>Dharmendra</author><marketversion>5.1.0</marketversion><marketvercode>17</marketvercode><package><version>5.1.0</version><versioncode>17</versioncode><apkname>io.github.dharma_labs.openeye.17.apk</apkname><hash type="sha256">f21c07134601bc33197fdd689b77b16b6993c96fcf74e72c197bcd9d737b1f78</hash><size>1595898</size><sdkver>26</sdkver><targetSdkVersion>37</targetSdkVersion><added>2026-11-26</added><sig>e5f29a701c3ddcc8e61ffb0f1b1213c0</sig><permissions>FOREGROUND_SERVICE,FOREGROUND_SERVICE_SPECIAL_USE,PACKAGE_USAGE_STATS,POST_NOTIFICATIONS,io.github.dharma_labs.openeye.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode></package></application></fdroid>
