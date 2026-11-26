@@ -20,6 +20,43 @@ sha256 of the apk: `f21c07134601bc33197fdd689b77b16b6993c96fcf74e72c197bcd9d737b
 sees it as a different app: installing it next to 4.x or 5.0.0 gives you two icons, not an update.
 your watch history stays with the old one and goes when you remove it.
 
+## stay updated without downloading anything
+
+if you would rather not re-download the apk for every release, add this repository to
+[F-Droid](https://f-droid.org/en/packages/org.fdroid.fdroid/) — the same app store openeye is being
+submitted to, minus the waiting:
+
+```
+https://dharma-labs.github.io/openeye-releases/repo
+```
+
+in f-droid: **settings → repositories → new repository → enter a url manually**, paste the line
+above, then **add repository**. openeye shows up under its own name; the first check for updates may
+need a pull to refresh.
+
+if you are reading this on your phone with f-droid already installed, you can paste this instead —
+it opens the add-repository screen directly:
+
+```
+fdroidrepos://dharma-labs.github.io/openeye-releases/repo
+```
+
+what you get:
+
+- new versions appear in f-droid's updates tab, and install over your existing one. your watch
+  history and settings stay.
+- the apk served there is byte-for-byte the one below — same sha256, same release key. it is not a
+  rebuild, and nothing is re-signed behind the scenes.
+- no account, no server of mine, nothing to log into. the index is a few static files on github.
+
+what to know:
+
+- f-droid asks you to allow installs from itself once, the same prompt as above.
+- google play protect may say it "hasn't seen this app before" and offer to scan it. that happens
+  for any apk that is not on the play store, including the one below.
+- if openeye ever gets accepted into the main f-droid store, that copy is signed with f-droid's key,
+  not mine, so the two channels cannot update each other. uninstall one before installing the other.
+
 ## what it does
 
 - counts reel / shorts / tiktok time on the screen you are actually looking at — a small, quiet readout, not a dashboard
